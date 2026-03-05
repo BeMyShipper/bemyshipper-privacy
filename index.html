@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>BeMyShipper LLC</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
+
 body{
-font-family: Arial, Helvetica, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
 margin:0;
-background:#f4f6fb;
+background:#f5f7fb;
 color:#333;
 }
 
 .header{
-background:#0B6EF6;
+background:linear-gradient(135deg,#1a73e8,#0b57d0);
 color:white;
-padding:30px;
 text-align:center;
+padding:45px 20px;
 }
 
 .logo{
-font-size:32px;
-font-weight:bold;
+font-size:34px;
+font-weight:700;
+letter-spacing:0.5px;
 }
 
 .tagline{
-font-size:16px;
 margin-top:6px;
+font-size:16px;
 opacity:0.9;
 }
 
@@ -34,14 +38,15 @@ opacity:0.9;
 max-width:900px;
 margin:40px auto;
 background:white;
-padding:40px;
-border-radius:10px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
+padding:35px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
-h2{
-color:#0B6EF6;
+.section-title{
+color:#1a73e8;
 margin-top:30px;
+font-size:22px;
 }
 
 ul{
@@ -49,14 +54,19 @@ padding-left:20px;
 }
 
 li{
-margin-bottom:8px;
+margin-bottom:10px;
 }
 
-.contact{
-background:#f0f5ff;
-padding:20px;
-border-radius:8px;
+.contact-box{
+background:#f1f5ff;
+padding:22px;
+border-radius:10px;
 margin-top:20px;
+}
+
+.contact-box strong{
+display:inline-block;
+width:90px;
 }
 
 .legal{
@@ -65,21 +75,33 @@ padding-top:20px;
 border-top:1px solid #eee;
 }
 
-.legal a{
+.legal-links{
+margin-top:12px;
+}
+
+.legal-links a{
 display:block;
+padding:10px 14px;
 margin-top:8px;
-color:#0B6EF6;
+background:#f5f7fb;
+border-radius:6px;
 text-decoration:none;
+color:#1a73e8;
 font-weight:500;
+transition:0.2s;
+}
+
+.legal-links a:hover{
+background:#e8f0ff;
 }
 
 .footer{
 text-align:center;
-font-size:14px;
 color:#777;
-margin-top:40px;
-padding-bottom:30px;
+font-size:14px;
+margin-top:35px;
 }
+
 </style>
 
 </head>
@@ -87,18 +109,24 @@ padding-bottom:30px;
 <body>
 
 <div class="header">
+
 <div class="logo">BeMyShipper</div>
-<div class="tagline">International Shopping & Logistics Platform</div>
+
+<div class="tagline">
+International Shopping & Logistics Platform
+</div>
+
 </div>
 
 <div class="container">
 
 <p>
-BeMyShipper is a logistics technology platform that allows users to shop from international stores
-and ship their purchases globally through a simple and secure mobile application.
+BeMyShipper is a logistics technology platform that enables users to purchase products
+from international online stores and ship them easily to their destination through
+a simple and secure mobile application.
 </p>
 
-<h2>What We Do</h2>
+<h2 class="section-title">What We Do</h2>
 
 <ul>
 <li>Buy products from international stores</li>
@@ -107,31 +135,36 @@ and ship their purchases globally through a simple and secure mobile application
 <li>Order tracking and shipment management</li>
 </ul>
 
-<h2>About the Company</h2>
+<h2 class="section-title">About the Company</h2>
 
 <p>
-BeMyShipper LLC is a technology company focused on simplifying international commerce
-by connecting global marketplaces with customers around the world.
+BeMyShipper LLC is a logistics technology company focused on simplifying
+international commerce by connecting global marketplaces with customers
+around the world.
 </p>
 
-<div class="contact">
+<div class="contact-box">
 
-<h2>Contact Information</h2>
+<h2 class="section-title">Contact Information</h2>
 
 <p>
 <strong>Company:</strong> BeMyShipper LLC<br>
 <strong>Email:</strong> help@bemyshipper.com<br>
-<strong>Address:</strong> Richmond, Virginia, United States
+<strong>Location:</strong> Virginia, United States
 </p>
 
 </div>
 
 <div class="legal">
 
-<h2>Legal</h2>
+<h2 class="section-title">Legal</h2>
+
+<div class="legal-links">
 
 <a href="/privacy-policy.html">Privacy Policy</a>
+
 <a href="/terms.html">Terms of Service</a>
+
 <a href="/delete-account.html">Delete Account</a>
 
 </div>
@@ -139,7 +172,11 @@ by connecting global marketplaces with customers around the world.
 </div>
 
 <div class="footer">
+
 © 2026 BeMyShipper LLC
+
+</div>
+
 </div>
 
 </body>
