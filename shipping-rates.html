@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>BeMyShipper Shipping Rates</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f7fb;
+    color:#222;
+}
+
+.header{
+    background: linear-gradient(135deg,#0d1b4c,#f47b20);
+    padding:40px 20px;
+    text-align:center;
+    color:white;
+}
+
+.header h1{
+    margin:0;
+    font-size:32px;
+}
+
+.header p{
+    margin-top:10px;
+    font-size:16px;
+    opacity:0.9;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:30px 0;
+}
+
+.route-card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    margin-bottom:30px;
+    box-shadow:0 4px 18px rgba(0,0,0,0.08);
+}
+
+.route-title{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:25px;
+    color:#0d1b4c;
+}
+
+.category{
+    margin-top:30px;
+}
+
+.category h3{
+    background:linear-gradient(135deg,#0d1b4c,#f47b20);
+    color:white;
+    padding:14px;
+    border-radius:12px;
+    font-size:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table th{
+    background:#f47b20;
+    color:white;
+    padding:14px;
+    text-align:left;
+    font-size:16px;
+}
+
+table td{
+    padding:14px;
+    border-bottom:1px solid #ddd;
+    font-size:15px;
+}
+
+table tr:hover{
+    background:#f8f8f8;
+}
+
+.notice{
+    background:white;
+    border-left:6px solid #f47b20;
+    padding:20px;
+    border-radius:10px;
+    margin-top:40px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.footer{
+    text-align:center;
+    padding:30px;
+    color:#666;
+    font-size:14px;
+}
+
+@media(max-width:768px){
+
+    .header h1{
+        font-size:26px;
+    }
+
+    .route-title{
+        font-size:22px;
+    }
+
+    table th,
+    table td{
+        font-size:14px;
+        padding:10px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    <h1>BeMyShipper Shipping Rates</h1>
+    <p>Fast • Reliable • Affordable Shipping Between Guinea & The World</p>
+</div>
+
+<div class="container">
+
+    <!-- FRANCE BELGIUM -->
+
+    <div class="route-card">
+
+        <div class="route-title">
+            🇫🇷 🇧🇪 France & Belgium ⇄ Guinea
+        </div>
+
+        <div class="category">
+            <h3>📱 Phones & Electronics</h3>
+
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Basic Phone</td>
+                    <td>$15</td>
+                </tr>
+
+                <tr>
+                    <td>Touch Phone Level 1</td>
+                    <td>$30</td>
+                </tr>
+
+                <tr>
+                    <td>Smartphone</td>
+                    <td>$50</td>
+                </tr>
+
+                <tr>
+                    <td>Tablet</td>
+                    <td>$70</td>
+                </tr>
+
+                <tr>
+                    <td>New Laptop</td>
+                    <td>$90</td>
+                </tr>
+
+                <tr>
+                    <td>Used Laptop</td>
+                    <td>$60</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="category">
+            <h3>📄 Express Courier</h3>
+
+            <table>
+
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Envelope</td>
+                    <td>$30</td>
+                </tr>
+
+                <tr>
+                    <td>Official Documents</td>
+                    <td>$30</td>
+                </tr>
+
+                <tr>
+                    <td>Traditional Medicine</td>
+                    <td>$30</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="category">
+            <h3>👕 Clothing & Fashion</h3>
+
+            <table>
+
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Bazin Complete</td>
+                    <td>$15</td>
+                </tr>
+
+                <tr>
+                    <td>Shoes</td>
+                    <td>$20</td>
+                </tr>
+
+                <tr>
+                    <td>Handbag</td>
+                    <td>$25</td>
+                </tr>
+
+                <tr>
+                    <td>Small Suitcase</td>
+                    <td>$40</td>
+                </tr>
+
+                <tr>
+                    <td>Large Suitcase</td>
+                    <td>$70</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="category">
+            <h3>📦 General Packages</h3>
+
+            <table>
+
+                <tr>
+                    <th>Weight</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>0 – 1 kg</td>
+                    <td>$10</td>
+                </tr>
+
+                <tr>
+                    <td>1 – 3 kg</td>
+                    <td>$20</td>
+                </tr>
+
+                <tr>
+                    <td>3 – 5 kg</td>
+                    <td>$35</td>
+                </tr>
+
+                <tr>
+                    <td>5 – 10 kg</td>
+                    <td>$60</td>
+                </tr>
+
+                <tr>
+                    <td>10 – 20 kg</td>
+                    <td>$100</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+    <!-- USA CANADA -->
+
+    <div class="route-card">
+
+        <div class="route-title">
+            🇺🇸 🇨🇦 USA & Canada ⇄ Guinea
+        </div>
+
+        <div class="category">
+            <h3>📱 Phones & Electronics</h3>
+
+            <table>
+
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Basic Phone</td>
+                    <td>$30</td>
+                </tr>
+
+                <tr>
+                    <td>Touch Phone Level 1</td>
+                    <td>$50</td>
+                </tr>
+
+                <tr>
+                    <td>Smartphone</td>
+                    <td>$90</td>
+                </tr>
+
+                <tr>
+                    <td>Tablet</td>
+                    <td>$120</td>
+                </tr>
+
+                <tr>
+                    <td>New Laptop</td>
+                    <td>$170</td>
+                </tr>
+
+                <tr>
+                    <td>Used Laptop</td>
+                    <td>$120</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="category">
+            <h3>📄 Express Courier</h3>
+
+            <table>
+
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Envelope</td>
+                    <td>$50</td>
+                </tr>
+
+                <tr>
+                    <td>Official Documents</td>
+                    <td>$50</td>
+                </tr>
+
+                <tr>
+                    <td>Traditional Medicine</td>
+                    <td>$50</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="category">
+            <h3>👕 Clothing & Fashion</h3>
+
+            <table>
+
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Bazin Complete</td>
+                    <td>$25</td>
+                </tr>
+
+                <tr>
+                    <td>Shoes</td>
+                    <td>$35</td>
+                </tr>
+
+                <tr>
+                    <td>Handbag</td>
+                    <td>$45</td>
+                </tr>
+
+                <tr>
+                    <td>Small Suitcase</td>
+                    <td>$70</td>
+                </tr>
+
+                <tr>
+                    <td>Large Suitcase</td>
+                    <td>$120</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="category">
+            <h3>📦 General Packages</h3>
+
+            <table>
+
+                <tr>
+                    <th>Weight</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>0 – 1 kg</td>
+                    <td>$20</td>
+                </tr>
+
+                <tr>
+                    <td>1 – 3 kg</td>
+                    <td>$40</td>
+                </tr>
+
+                <tr>
+                    <td>3 – 5 kg</td>
+                    <td>$70</td>
+                </tr>
+
+                <tr>
+                    <td>5 – 10 kg</td>
+                    <td>$120</td>
+                </tr>
+
+                <tr>
+                    <td>10 – 20 kg</td>
+                    <td>$200</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+    <div class="notice">
+
+        <h2>Important Notice</h2>
+
+        <p>
+            Prices shown are average estimated shipping rates for standard shipments between Guinea and the selected country.
+        </p>
+
+        <p>
+            Final shipping costs may vary depending on actual weight, package dimensions, customs fees, taxes, product category, and destination verification after warehouse inspection.
+        </p>
+
+        <p>
+            Some restricted or high-value products may require additional customs verification and pricing adjustments.
+        </p>
+
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 BeMyShipper — Shipping Made Simple
+</div>
+
+</body>
+</html>
